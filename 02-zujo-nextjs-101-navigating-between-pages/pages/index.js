@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -37,6 +38,10 @@ export default function Home() {
             <h3>Explore &rarr;</h3>
             <p>Explore Zujo!</p>
           </a>
+
+          <Link href="/posts/first-post">
+            <a className="card"> First Post!</a>
+          </Link>
         </div>
       </main>
 
