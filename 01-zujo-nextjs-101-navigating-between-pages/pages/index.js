@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://www.zujo.co/">Zujo!</a>
+          Learn about <a href="https://www.zujo.co/">Zujo!</a>
         </h1>
 
         <p className="description">
