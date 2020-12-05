@@ -16,9 +16,27 @@ export function getSortedPostsData() {
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
     // Use gray-matter to parse the post metadata section
+    // ---
+    // title: Hello
+    // slug: home
+    // ---
+    // <h1>Hello world!</h1>
+    // Above string will be converted to json using matter
+    // {
+    //   content: '<h1>Hello world!</h1>',
+    //   data: {
+    //     title: 'Hello',
+    //     slug: 'home'
+    //   }
+    // }
     const matterResult = matter(fileContents);
 
-    // Combine the data with the id
+    // Returns
+    // {
+    //   id: "what-is-zujo",
+    //   title: "Hello",
+    //   slug: "home"
+    // }
     return {
       id,
       ...matterResult.data,

@@ -61,6 +61,16 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <footer>
+        Developed By:
+        <a
+          href="https://github.com/arjun-kava"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <a href="https://github.com/arjun-kava"> Arjun Kava</a>
+        </a>
+      </footer>
     </div>
   );
 }
