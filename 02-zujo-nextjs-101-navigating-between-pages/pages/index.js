@@ -42,6 +42,10 @@ export default function Home() {
           <Link href="/posts/first-post">
             <a className="card"> First Post!</a>
           </Link>
+
+          <Link href="/posts/second-post">
+            <a className="card"> Second Post!</a>
+          </Link>
         </div>
       </main>
 

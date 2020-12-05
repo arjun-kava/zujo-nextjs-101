@@ -1,5 +1,7 @@
 ### Setup
 
+#### \_app (global.css) -> layout(layout.module.css) -> index.js
+
 #### create and setup `01-zujo-nextjs-101-starter ` project
 
 ```sh
