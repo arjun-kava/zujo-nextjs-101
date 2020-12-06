@@ -18,6 +18,16 @@ export default function Home({ allPostsData }) {
           <Link href={"https://www.linkedin.com/in/arjun-kava"}>LinkedIn</Link>,
           <Link href={"https://twitter.com/Arjun_Kava"}>Twitter</Link>
         </p>
+        <p>
+          Course Link:{" "}
+          <Link
+            href={
+              "https://alpha.zujo.co/course/MWI4YmZmYWYtMGJmYi00MWQ0LWFiYjUtODhmOTY3YzM1ZTkz?id=1/-Next-JS-tutorial-for-beginners"
+            }
+          >
+            Next JS tutorial for beginners
+          </Link>
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
